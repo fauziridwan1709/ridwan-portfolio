@@ -5,6 +5,8 @@ import 'package:ridwan/di/di.dart';
 import 'package:ridwan/feature/about/blocs/about_bloc.dart';
 import 'package:ridwan/feature/about/screen/ui.dart';
 
+part 'route.g.dart';
+
 @TypedGoRoute<AboutRoute>(
   path: '/about',
 )

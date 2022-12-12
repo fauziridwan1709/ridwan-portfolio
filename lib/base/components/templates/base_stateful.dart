@@ -65,6 +65,7 @@ abstract class BaseStateful<T extends StatefulWidget> extends State<T>
               context,
               sizingInformation,
             );
+          // ignore: no_default_cases
           default:
             return buildMobileLayout(
               context,

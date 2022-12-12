@@ -9,5 +9,5 @@ extension BuildContextExtension on BuildContext {
   //
   // At runtime this will never be null, as long as we call it inside
   // a *descendant* of MaterialApp (which is always the case).
-  AppLocalizations get l10n => AppLocalizations.of(this)!;
+  AppLocalizations get l10n => AppLocalizations.of(this);
 }

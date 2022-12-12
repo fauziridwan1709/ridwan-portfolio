@@ -5,6 +5,8 @@ import 'package:ridwan/di/di.dart';
 import 'package:ridwan/feature/main/blocs/main_bloc.dart';
 import 'package:ridwan/feature/main/screen/ui.dart';
 
+part 'route.g.dart';
+
 @TypedGoRoute<MainRoute>(
   path: '/',
 )

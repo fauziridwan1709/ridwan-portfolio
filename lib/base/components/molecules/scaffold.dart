@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ridwan/base/components/components.dart';
-import 'package:ridwan/base/colors.dart';
 import 'package:ridwan/base/colors.dart';
 
 class TMScaffold extends Scaffold {

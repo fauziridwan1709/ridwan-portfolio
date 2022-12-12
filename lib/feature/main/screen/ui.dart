@@ -13,13 +13,20 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends BaseStateful<MainScreen>
     with MainScreenContract {
   @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-
-  @override
   PreferredSizeWidget? buildAppBar(BuildContext context) {
-    return null;
+    return PreferredSize(
+      preferredSize: const Size.fromHeight(60),
+      child: OTopNavigation(
+        labels: const [
+          'Home',
+          'Works',
+          'About',
+          'Projects',
+          'Services',
+        ],
+        onChange: (int index) {},
+      ),
+    );
   }
 
   @override
@@ -29,22 +36,30 @@ class _MainScreenState extends BaseStateful<MainScreen>
 
   @override
   Widget buildDesktopLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return Container(
+      color: Colors.red,
+    );
   }
 
   @override
   Widget buildMobileLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return Container(
+      color: Colors.red,
+    );
   }
 
   @override
   Widget buildTabletLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return Container(
+      color: Colors.red,
+    );
   }
 
   @override
   Widget buildWatchLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return Container(
+      color: Colors.red,
+    );
   }
 
   @override

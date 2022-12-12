@@ -13,11 +13,6 @@ class AboutScreen extends StatefulWidget {
 class _AboutScreenState extends BaseStateful<AboutScreen>
     with AboutScreenContract {
   @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-
-  @override
   PreferredSizeWidget? buildAppBar(BuildContext context) {
     return null;
   }
@@ -29,22 +24,22 @@ class _AboutScreenState extends BaseStateful<AboutScreen>
 
   @override
   Widget buildDesktopLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return const SizedBox();
   }
 
   @override
   Widget buildMobileLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return const SizedBox();
   }
 
   @override
   Widget buildTabletLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return const SizedBox();
   }
 
   @override
   Widget buildWatchLayout(BuildContext context, SizingInformation sizeInfo) {
-    return SizedBox();
+    return const SizedBox();
   }
 
   @override

@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: goRouter,
-      title: 'Flutter Demo',
+      title: 'Ridwan portfolio',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
